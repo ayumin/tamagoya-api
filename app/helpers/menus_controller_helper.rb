@@ -1,0 +1,2 @@
+module MenusControllerHelper
+end

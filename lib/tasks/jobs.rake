@@ -1,0 +1,2 @@
+namespace :jobs do
+end
