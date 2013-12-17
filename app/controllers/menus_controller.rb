@@ -1,7 +1,7 @@
 class MenusController < ApplicationController
   def today
     menu ={}
-    if !(Menu.where(date:Date.today).first)
+    if !(menu = Menu.where(date:Date.today).first)
       menu = {status:"NO DATA"}
     else
       menu = make_menu(menu)
