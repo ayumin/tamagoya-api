@@ -42,5 +42,7 @@ class MenusController < ApplicationController
     menu.delete('created_at')
     menu.delete('updated_at')
     menu
-  end    
+  end
+
+  private :make_menu
 end
